@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/bookdetailed"
+        android:iconTint="@color/red"
+        android:icon="@drawable/bookmark_notfilled"
+        android:title="Bookmark"
+        app:showAsAction="always"
+
+        />
+
+    <item android:id="@+id/twittericon"
+        android:title="Twitter"
+        android:icon="@drawable/bluetwitter"
+        app:showAsAction="always"
+        />
+</menu>

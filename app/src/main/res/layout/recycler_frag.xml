@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+
+    android:orientation="vertical">
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <ProgressBar
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/loading_sign"
+            android:layout_gravity="center"></ProgressBar>
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/newsList"
+            android:layout_width="409dp"
+            android:layout_height="650dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_marginBottom="1dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+        android:layout_gravity="center"
+            android:layout_marginLeft="40dp"
+            android:text="No Bookmarked articles"
+            android:textColor="@color/purple"
+            android:id="@+id/nbmk"/>
+    </FrameLayout>
+
+</LinearLayout>
